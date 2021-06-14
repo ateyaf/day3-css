@@ -1,0 +1,103 @@
+.header img {
+   
+    width: 400px;
+    height:auto;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom:-20px;
+}
+
+body{
+    background-color:black;
+}
+
+
+
+.navbar ul {
+
+    color:white;
+
+    background-color: #1f1f1f;
+
+	border: 10px #1f1f1f solid;
+	
+	border-radius: 20px;
+
+	padding: 20px;
+
+	margin-top: 2.5em;
+}
+
+.navbar li {
+
+    display: inline;
+}
+
+.navbar {
+    text-align: center;
+}
+
+ .navbar a{
+    
+    font-size: 400%;
+    color: #D8DF25;
+
+    font-family: 'Architects Daughter';
+    text-decoration: none;
+    text-align: center;
+    transition-property:all ;
+    transition-delay:25ms;
+    transition-timing-function: ease-in-out;
+    transition-duration: 500ms;
+    
+
+} 
+
+.navbar a:visited{
+    color: #D8DF25;
+}
+
+
+.spotify a:hover {
+
+    font-size: 800%;
+    color:#1DB954;
+
+
+}
+
+.youtube a:hover {
+    font-size: 800%;
+    color:rgb(255,0,0);
+
+
+}
+
+.reddit a:hover {
+    font-size: 800%;
+    color:rgb(246,67,2);
+
+
+}
+
+.instagram a:hover {
+    font-size: 800%;
+    color:#BC008A;
+
+
+}
+
+.shop a:hover {
+    font-size: 800%;
+    color:#ffffff;
+
+
+}
+
+
+
+
+
+
