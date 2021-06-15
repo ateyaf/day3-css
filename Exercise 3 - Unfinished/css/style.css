@@ -80,18 +80,25 @@ background: linear-gradient(171deg, rgba(141,42,254,1) 66%, rgba(183,71,252,1) 1
 .boxes {
     display:flex;
     justify-content: space-around;
-    padding-top: 5em;
+    padding-top: 7em;
+    padding-bottom: 7em;
 }
 
 .box1{
-    background-color: white;
-    border: 3px white solid;
+    /* background-color: white;
+    border: 3px white solid; */
+    background: rgb(141,42,254);
+background: linear-gradient(171deg, rgba(141,42,254,1) 66%, rgba(183,71,252,1) 100%);
     border-radius: 20px;
-    width: auto;
+    
     height: auto;
     display: inline-block;
     text-align: center;
     font-size: 150%;
+    color:white;
+
+    width: 20%;
+    
     
 }
 
@@ -105,12 +112,17 @@ background: linear-gradient(171deg, rgba(141,42,254,1) 66%, rgba(183,71,252,1) 1
 .box2{
     text-align: center;
     font-size: 150%;
-    background-color: white;
-    border: 3px white solid;
+    /* background-color: white; */
+    /* border: 3px white solid; */
     border-radius: 20px;
-    width: auto;
+    
     height: auto;
     display: inline-block;
+
+    width: 20%;
+    background: rgb(141,42,254);
+background: linear-gradient(171deg, rgba(141,42,254,1) 66%, rgba(183,71,252,1) 100%);
+color:white;
     
 }
 
@@ -124,12 +136,17 @@ background: linear-gradient(171deg, rgba(141,42,254,1) 66%, rgba(183,71,252,1) 1
 .box3{
     text-align: center;
     font-size: 150%;
-    background-color: white;
-    border: 3px white solid;
+    /* background-color: white;
+    border: 3px white solid; */
     border-radius: 20px;
-    width: auto;
+    
     height: auto;
     display: inline-block;
+    background: rgb(141,42,254);
+background: linear-gradient(171deg, rgba(141,42,254,1) 66%, rgba(183,71,252,1) 100%);
+color:white;
+
+width: 20%;
     
 }
 
@@ -137,16 +154,5 @@ background: linear-gradient(171deg, rgba(141,42,254,1) 66%, rgba(183,71,252,1) 1
     margin:2em;
     width: 200px;
     height:auto;
-}
-
-.text1 p {
-    
-    
-    
-    
-    text-align: center;
-    
-
-    
 }
 
